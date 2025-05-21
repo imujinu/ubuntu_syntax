@@ -57,6 +57,7 @@ echo "count value is $count"
 fileCount = 0
 dirCount = 0
 for a in *
+do
 if [ -f "$a" ]; 
 then
 fileCount++
